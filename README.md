@@ -1,1 +1,6 @@
-# homr0.github.io
+# Portfolio Site
+
+This is my portfolio site hosted off of GitHub pages.
+
+## Site Map
+- Home
