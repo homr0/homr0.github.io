@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Home</title>
+        <title>Portfolio - Rebecca Hom</title>
 
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -11,9 +11,9 @@
     </head>
 
     <body>
-        <header>
+        <header class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper ">
+                <div class="nav-wrapper">
                     <!-- <a href="index.html" class="brand-logo">Rebecca Hom</a> -->
                     
                     <a href="#" data-target="mobile-menu" class="sidenav-trigger right">
@@ -21,8 +21,8 @@
                     </a>
                     
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="./">About</a></li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#introduction">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="https://www.linkedin.com/in/rebecca-hom-b89a13113/">LinkedIn</a></li>
                         <li><a href="https://github.com/homr0">GitHub</a></li>
                     </ul>
@@ -30,27 +30,262 @@
             </nav>
                         
             <ul class="sidenav" id="mobile-menu">
-                <li><a href="./">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="#introduction">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="https://www.linkedin.com/in/rebecca-hom-b89a13113/">LinkedIn</a></li>
                 <li><a href="https://github.com/homr0">GitHub</a></li>
             </ul>
         </header>
 
-        <main class="container">
+        <main class="container white">
+            <div class="row">
+                <div class="col s12">
+                    <section id="introduction" class="section scrollspy black white-text">
+                        <h1>Hello, my name is Rebecca Hom.</h1>
 
+                        <p>I am a full stack web developer with a passion for creating user-friendly interfaces and features. Leveraging a background in education and psychology, I aim to provide a user-oriented perspective in website and software development that prioritize user interactivity, accessibility, and functionality.</p>
+
+                        <p>In the full stack, I specialize in the front-end, especially with <strong>HTML, CSS,</strong> and <strong>Javascript</strong>. On the back-end, I have done work with <strong>Node.js</strong> and <strong>Express</strong>. You can see some of my <a href="#portfolio">featured projects</a> in my portfolio.</p>
+
+                        <p>I am based in Riverside, CA and you can chat with me at <a href="mailto:rebecca.hom001@gmail.com">rebecca.hom001@gmail.com</a></p>
+                    </section>
+
+                    <section id="portfolio" class="section scrollspy">
+                        <h2>Portfolio</h2>
+
+                        <div class="row">
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="https://rocky-thicket-37620.herokuapp.com/">
+                                            <img src="assets/images/friend-finder.PNG" alt="Friend Finder">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="card-title">Friend Finder</h3>
+
+                                    <ul class="technology-used">
+                                        <li>Node.js</li>
+                                        <li>Express</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>HTML</li>
+                                        <li>Materialize.css</li>
+                                    </ul>
+
+                                    <p>An app for finding new friends through a compatibility quiz.</p>
+                                </div>
+
+                                <div class="card-action center">
+                                    <a href="#friend-finder" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="https://homr0.github.io/BYOD/">
+                                            <img src="assets/images/byod.PNG" alt="Bring Your Own Diet">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="card-title">Bring Your Own Diet</h3>
+
+                                    <ul class="technology-used">
+                                        <li>jQuery</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Bootstrap</li>
+                                        <li>Firebase</li>
+                                        <li>jQuery Vector Maps</li>
+                                        <li>Animate.css</li>
+                                        <li>Edamam Recipe Search API</li>
+                                        <li>Open Table API</li>
+                                    </ul>
+
+                                    <p>A website for finding recipes and restaurants.</p>
+                                </div>
+
+                                <div class="card-action center">
+                                    <a href="#byod" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="https://homr0.github.io/RPS-Multiplayer/">
+                                            <img src="assets/images/rps.PNG" alt="Multiplayer Rock-Paper-Scissors">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="card-title">Multiplayer Rock-Paper-Scissors</h3>
+
+                                    <ul class="technology-used">
+                                        <li>jQuery</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Materialize.css</li>
+                                        <li>Firebase</li>
+                                    </ul>
+
+                                    <p>A website for playing Rock-Paper-Scissors online.</p>
+                                </div>
+
+                                <div class="card-action center">
+                                    <a href="#rps" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contact" class="section scrollspy">
+                        <div class="collection with-header">
+                            <h2 class="collection-header">Contact Information</h2>
+
+                            <a class="collection-item blue-text text-darken-1" href="mailto:rebecca.hom001@gmail.com">
+                                <i class="material-icons circle tiny">email</i>
+
+                                <span>Email</span>
+                            </a>
+
+                            <a class="collection-item blue-text text-darken-1" href="https://www.linkedin.com/in/rebecca-hom-b89a13113/">
+                                <img src="assets/images/linkedin.png" class="circle" alt="LinkedIn">
+
+                                <span>LinkedIn</span>
+                            </a>
+
+                            <a class="collection-item blue-text text-darken-1" href="https://github.com/homr0">
+                                <img src="assets/images/GitHub-Mark-32px.png" class="circle" alt="GitHub">
+
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </main>
 
-        <footer class="page-footer">
-            <div class="container">
+        <footer></footer>
+
+        <!-- Modals -->
+        <div id="friend-finder" class="modal project">
+            <div class="modal-content">
                 <div class="row">
-                    <div class="col s12">
-                        <p>If you would like to contact me about a project collaboration, please send an email to <a class="white-text" href="mailto:rebecca.hom001@gmail.com">rebecca.hom001@gmail.com</a>.</p>
+                    <div class="col s12 m3">
+                        <img src="assets/images/friend-finder.PNG" alt="Friend Finder">
+                    </div>
+
+                    <div class="col s12 m9">
+                        <h4>Friend Finder</h4>
+
+                        <p><em>An app for finding new friends through a compatibility quiz.</em></p>
+
+                        <p>A difficulty with finding friends is finding people who are compatible with you. This simple quiz utilizes the <a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits" target="_blank">Big Five Personality traits (or OCEAN)</a> to find people with traits similar to you.</p>
+        
+                        <ul class="technology-used">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>HTML</li>
+                            <li>Materialize.css</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
+
+            <div class="modal-footer">
+                <a href="https://rocky-thicket-37620.herokuapp.com/" target="_blank" class="btn blue-grey waves-effect waves-light">Friend Finder</a>
+
+                <a href="https://github.com/homr0/FriendFinder" target="_blank" class="btn blue-grey waves-effect waves-light">GitHub Repo</a>
+
+                <a href="#" target="_blank" class="btn blue-grey waves-effect waves-light modal-close">Close</a>
+            </div>
+        </div>
         
+        <div id="byod" class="modal project">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="assets/images/byod.PNG" alt="Bring Your Own Diet">
+                    </div>
+
+                    <div class="col s12 m9">
+                        <h4>Bring Your Own Diet</h4>
+
+                        <p><em>A website for finding recipes and restaurants.</em></p>
+
+                        <p>For foodies and frequent travelers, it can be difficult to find food that you enjoy. For those that enjoy cooking at home, you can use the recipe search for finding a recipe from anywhere in the United States. Meanwhile for people willing to travel, there is also a restaurant search for popular restaurants in different states. Additionally, queries can be filtered for dietary restrictions and  by ingredient.</p>
+        
+                        <ul class="technology-used">
+                            <li>jQuery</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Firebase</li>
+                            <li>jQuery Vector Maps</li>
+                            <li>Animate.css</li>
+                            <li>Edamam Recipe Search API</li>
+                            <li>Open Table API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://homr0.github.io/BYOD/" target="_blank" class="btn blue-grey waves-effect waves-light">Bring Your Own Diet</a>
+
+                <a href="https://github.com/homr0/BYOD" target="_blank" class="btn blue-grey waves-effect waves-light">GitHub Repo</a>
+
+                <a href="#" target="_blank" class="btn blue-grey waves-effect waves-light modal-close">Close</a>
+            </div>
+        </div>
+
+        <div id="rps" class="modal project">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="assets/images/rps.PNG" alt="Multiplayer Rock-Paper-Scissors">
+                    </div>
+
+                    <div class="col s12 m9">
+                        <h4>Multiplayer Rock-Paper-Scissors</h4>
+
+                        <p><em>A website for playing Rock-Paper-Scissors online.</em></p>
+
+                        <p>While rock-paper-scissors is traditionally played between two people, this website facilitates the game between two players over the internet. Although only two players can play, any other users can watch the game or be put on the site's wait list until one of the players leave the game. All players can access and post in the chatbox during the game. The chatbox also has a bot that announces when the players have made their moves as well as when someone wins.</p>
+        
+                        <ul class="technology-used">
+                            <li>jQuery</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Materialize.css</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://homr0.github.io/RPS-Multiplayer/" target="_blank" class="btn blue-grey waves-effect waves-light">Multiplayer Rock-Paper-Scissors</a>
+
+                <a href="https://github.com/homr0/RPS-Multiplayer" target="_blank" class="btn blue-grey waves-effect waves-light">GitHub Repo</a>
+
+                <a href="#" target="_blank" class="btn blue-grey waves-effect waves-light modal-close">Close</a>
+            </div>
+        </div>
+
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
