@@ -3,6 +3,8 @@
     <head>
         <title>Portfolio - Rebecca Hom</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,7 +16,7 @@
         <header class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <!-- <a href="index.html" class="brand-logo">Rebecca Hom</a> -->
+                    <a href="index.html" class="brand-logo">Rebecca Hom</a>
                     
                     <a href="#" data-target="mobile-menu" class="sidenav-trigger right">
                         <i class="material-icons">menu</i>
@@ -23,6 +25,7 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#introduction">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href="https://www.linkedin.com/in/rebecca-hom-b89a13113/">LinkedIn</a></li>
                         <li><a href="https://github.com/homr0">GitHub</a></li>
                     </ul>
@@ -32,6 +35,7 @@
             <ul class="sidenav" id="mobile-menu">
                 <li><a href="#introduction">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="https://www.linkedin.com/in/rebecca-hom-b89a13113/">LinkedIn</a></li>
                 <li><a href="https://github.com/homr0">GitHub</a></li>
             </ul>
@@ -57,29 +61,94 @@
                             <div class="col s12 m4">
                                 <div class="card">
                                     <div class="card-image">
+                                        <a href="https://powerful-earth-15398.herokuapp.com/">
+                                            <img src="assets/images/gm-books.PNG" alt="Gimme Books">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h3 class="card-title">Gimme Books</h3>
+
+                                        <ul class="technology-used">
+                                            <li>Node.js</li>
+                                            <li>Express</li>
+                                            <li>Express Sessions</li>
+                                            <li>MySQL</li>
+                                            <li>Sequelize</li>
+                                            <li>Passport JS</li>
+                                            <li>Bcrypt</li>
+                                            <li>Handlebars</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Materialize.css</li>
+                                        </ul>
+
+                                        <p>An app to search for books and get information about them.</p>
+                                    </div>
+
+                                    <div class="card-action center">
+                                        <a href="#gimme-books" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="https://fast-inlet-22337.herokuapp.com/">
+                                            <img src="assets/images/burger2.PNG" alt="Eat Da Burger">
+                                        </a>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h3 class="card-title">Eat Da Burger</h3>
+
+                                        <ul class="technology-used">
+                                            <li>Node.js</li>
+                                            <li>Express</li>
+                                            <li>MySQL</li>
+                                            <li>Sequelize</li>
+                                            <li>Handlebars</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Materialize.css</li>
+                                        </ul>
+
+                                        <p>An app for ordering and eating burgers.</p>
+                                    </div>
+
+                                    <div class="card-action center">
+                                        <a href="#eat-burger" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
                                         <a href="https://rocky-thicket-37620.herokuapp.com/">
                                             <img src="assets/images/friend-finder.PNG" alt="Friend Finder">
                                         </a>
                                     </div>
-                                </div>
 
-                                <div class="card-content">
-                                    <h3 class="card-title">Friend Finder</h3>
-
-                                    <ul class="technology-used">
-                                        <li>Node.js</li>
-                                        <li>Express</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>HTML</li>
-                                        <li>Materialize.css</li>
-                                    </ul>
-
-                                    <p>An app for finding new friends through a compatibility quiz.</p>
-                                </div>
-
-                                <div class="card-action center">
-                                    <a href="#friend-finder" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    <div class="card-content">
+                                        <h3 class="card-title">Friend Finder</h3>
+    
+                                        <ul class="technology-used">
+                                            <li>Node.js</li>
+                                            <li>Express</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>HTML</li>
+                                            <li>Materialize.css</li>
+                                        </ul>
+    
+                                        <p>An app for finding new friends through a compatibility quiz.</p>
+                                    </div>
+    
+                                    <div class="card-action center">
+                                        <a href="#friend-finder" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    </div>
                                 </div>
                             </div>
                             
@@ -90,29 +159,29 @@
                                             <img src="assets/images/byod.PNG" alt="Bring Your Own Diet">
                                         </a>
                                     </div>
-                                </div>
 
-                                <div class="card-content">
-                                    <h3 class="card-title">Bring Your Own Diet</h3>
+                                    <div class="card-content">
+                                        <h3 class="card-title">Bring Your Own Diet</h3>
+    
+                                        <ul class="technology-used">
+                                            <li>jQuery</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Bootstrap</li>
+                                            <li>Firebase</li>
+                                            <li>jQuery Vector Maps</li>
+                                            <li>Animate.css</li>
+                                            <li>Edamam Recipe Search API</li>
+                                            <li>Open Table API</li>
+                                        </ul>
+    
+                                        <p>A website for finding recipes and restaurants.</p>
+                                    </div>
 
-                                    <ul class="technology-used">
-                                        <li>jQuery</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Javascript</li>
-                                        <li>Bootstrap</li>
-                                        <li>Firebase</li>
-                                        <li>jQuery Vector Maps</li>
-                                        <li>Animate.css</li>
-                                        <li>Edamam Recipe Search API</li>
-                                        <li>Open Table API</li>
-                                    </ul>
-
-                                    <p>A website for finding recipes and restaurants.</p>
-                                </div>
-
-                                <div class="card-action center">
-                                    <a href="#byod" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    <div class="card-action center">
+                                        <a href="#byod" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    </div>
                                 </div>
                             </div>
                             
@@ -123,25 +192,25 @@
                                             <img src="assets/images/rps.PNG" alt="Multiplayer Rock-Paper-Scissors">
                                         </a>
                                     </div>
-                                </div>
 
-                                <div class="card-content">
-                                    <h3 class="card-title">Multiplayer Rock-Paper-Scissors</h3>
-
-                                    <ul class="technology-used">
-                                        <li>jQuery</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Javascript</li>
-                                        <li>Materialize.css</li>
-                                        <li>Firebase</li>
-                                    </ul>
-
-                                    <p>A website for playing Rock-Paper-Scissors online.</p>
-                                </div>
-
-                                <div class="card-action center">
-                                    <a href="#rps" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    <div class="card-content">
+                                        <h3 class="card-title">Multiplayer Rock-Paper-Scissors</h3>
+    
+                                        <ul class="technology-used">
+                                            <li>jQuery</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Materialize.css</li>
+                                            <li>Firebase</li>
+                                        </ul>
+    
+                                        <p>A website for playing Rock-Paper-Scissors online.</p>
+                                    </div>
+    
+                                    <div class="card-action center">
+                                        <a href="#rps" class="btn modal-trigger waves-effect waves-light">Read more</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -177,6 +246,83 @@
         <footer></footer>
 
         <!-- Modals -->
+        <div id="gimme-books" class="modal project">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="assets/images/gm-books.PNG">
+                    </div>
+
+                    <div class="col s12 m9">
+                        <h4>Gimme Books</h4>
+
+                        <p><em>An app to search for books and get information about them.</em></p>
+
+                        <p>Due to the sheer number of books in the world, it can be daunting to find a book to read. Gimme Books leverages the Google Books API to help users find a book by author or title. Users who sing up for an account can also view a book recommendation list to assist them in their search to find the next book to read. Additionally, users can save books to their Book List, which helps keep track of their favorite books.</p>
+
+                        <ul class="technology-used">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>Express Sessions</li>
+                            <li>MySQL</li>
+                            <li>Sequelize</li>
+                            <li>Passport JS</li>
+                            <li>Bcrypt</li>
+                            <li>Handlebars</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Materialize.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://powerful-earth-15398.herokuapp.com/" target="_blank" class="btn blue-grey waves-effect waves-light">Gimme Books</a>
+
+                <a href="https://github.com/homr0/GimmeBooks" target="_blank" class="btn blue-grey waves-effect waves-light">GitHub Repo</a>
+
+                <a href="#" target="_blank" class="btn blue-grey waves-effect waves-light modal-close">Close</a>
+            </div>
+        </div>
+
+        <div id="eat-burger" class="modal project">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="assets/images/burger2.PNG">
+                    </div>
+
+                    <div class="col s12 m9">
+                        <h4>Eat Da Burger</h4>
+
+                        <p><em>An app for ordering and eating burgers.</em></p>
+
+                        <p>It's no doubt that burgers are popular in America as a go-to food. With Eat Da Burger, it is easy to send a request burger to eat and choose a person to eat it. Once a burger has been eaten, the burger name and the person who ate it are listed so people can see who eats the most burgers and what burgers are the most popular.</p>
+
+                        <ul class="technology-used">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MySQL</li>
+                            <li>Sequelize</li>
+                            <li>Handlebars</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Materialize.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://fast-inlet-22337.herokuapp.com/" target="_blank" class="btn blue-grey waves-effect waves-light">Eat Da Burger</a>
+
+                <a href="https://github.com/homr0/sequelizedBurger" target="_blank" class="btn blue-grey waves-effect waves-light">GitHub Repo</a>
+
+                <a href="#" target="_blank" class="btn blue-grey waves-effect waves-light modal-close">Close</a>
+            </div>
+        </div>
+
         <div id="friend-finder" class="modal project">
             <div class="modal-content">
                 <div class="row">
@@ -224,7 +370,7 @@
 
                         <p><em>A website for finding recipes and restaurants.</em></p>
 
-                        <p>For foodies and frequent travelers, it can be difficult to find food that you enjoy. For those that enjoy cooking at home, you can use the recipe search for finding a recipe from anywhere in the United States. Meanwhile for people willing to travel, there is also a restaurant search for popular restaurants in different states. Additionally, queries can be filtered for dietary restrictions and  by ingredient.</p>
+                        <p>For foodies and frequent travelers, it can be difficult to find food that you enjoy. For those that enjoy cooking at home, you can use the recipe search for finding a recipe from anywhere in the United States. Meanwhile for people willing to travel, there is also a restaurant search for popular restaurants in different states. Additionally, queries can be filtered for dietary restrictions and by ingredient.</p>
         
                         <ul class="technology-used">
                             <li>jQuery</li>
