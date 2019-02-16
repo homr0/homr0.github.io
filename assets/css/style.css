@@ -34,6 +34,10 @@ header, header nav, footer.page-footer {
     background-color: rgba(35, 65, 90, 1);
 }
 
+nav .brand-logo {
+    padding: 0 1rem;
+}
+
 main {
     flex: 1 0 auto;
 }
