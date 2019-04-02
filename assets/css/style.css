@@ -36,6 +36,7 @@ header, header nav, footer.page-footer {
 
 nav .brand-logo {
     padding: 0 1rem;
+    position: relative;
 }
 
 main {
